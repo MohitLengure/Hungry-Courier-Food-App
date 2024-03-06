@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "399011825814",
+    "project_id": "hungry-courier",
+    "storage_bucket": "hungry-courier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399011825814:android:096263c1c1defb3843dab7",
+        "android_client_info": {
+          "package_name": "com.example.food_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdno_1zbwehE7U9Q-D2-dRKaHHmKvSY9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

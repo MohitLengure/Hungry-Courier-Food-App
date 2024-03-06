@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="223dp"
+        android:layout_height="147dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo_hungry_courier" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lavender_border"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="@color/bg"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/login_username"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/orange_border"
+                android:drawableStart="@drawable/baseline_person_pin_24"
+                android:drawablePadding="2dp"
+                android:hint="Email"
+                android:padding="8dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                app:passwordToggleEnabled="true">
+
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/orange_border"
+                    android:drawableStart="@drawable/baseline_lock_24"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:padding="8dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Forgot Password ?"
+                android:textAlignment="center"
+                android:textColor="@color/bg"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Login_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn_orng"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#F8F5F5"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:cornerRadius="24sp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/signupRedirectText"
+        android:layout_width="175dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Not Yet register?Sign Up "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
